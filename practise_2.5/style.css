@@ -1,0 +1,218 @@
+
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+  }
+nav{
+    height: 5rem;
+    padding: 25px 150px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+  .nav-links{
+    list-style: none;
+    display: flex;
+    gap: 4.5rem;
+  }
+  .nav-link a{
+    color: #FB9D5C;
+    font-size: 20px;
+  }
+
+  .hero-grid{
+    height: calc(750px - 105px);
+    display: grid;
+    grid-template-columns: 30% 65%;
+    gap: 5%;
+  }
+  .hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+  .hero-left p{
+    font-size: 1.3rem;
+    color: #FB9D5C;
+  }
+  .hero-left h1{
+    font-size: 1.3rem;
+    color: #FB9D5C;
+  }
+  .hero-heading{
+    padding-left: 2rem;
+    }
+
+.hero-text{
+        text-align: center;
+      }
+
+.hero-btn:hover{
+        background-color: #ed7017;
+      }
+
+.hero-right{
+        overflow: hidden;
+      }
+.hero-right img{
+        object-fit:fill;
+      }
+
+.logo-container
+{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    padding: 1.5rem 2rem;
+    box-shadow:2px 2px 2px rgba(25, 24, 24, 0.1);
+}
+ /* service Section */
+.services-heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.card-item{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #A5A1A1;
+  gap: 1rem;
+  padding: 1rem;
+  
+}
+.service_card
+{  margin-top: 2rem;
+  display:grid;
+  grid-template-columns:auto auto auto ;
+  gap:3rem;
+  padding-left:200px;
+  padding-right:200px;
+
+}
+
+ .card-item p{
+
+  text-align: justify;
+}
+.contact-section-padding
+{
+  padding: 3rem;
+}
+.contact-grid{
+  display: grid;
+  grid-template-columns:58% 38%;
+  gap: 4%;
+}
+.contact-item-right{
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
+}
+.contact-btn{
+  background-color: #f5a31f;
+  cursor: alias;
+  transition:width 2s, height 4s;
+}
+.contact-btn:hover{
+  background-color: #f1f6f7;
+}
+.contact-heading h2{
+  font-size: 2.5rem;
+}
+.contact-heading h2 span{
+  color: #FB9D5C;;
+  }
+  .contact-description p{
+    line-height: 1.2;
+    word-spacing: 0.3rem;
+    text-align: justify;
+    }
+  .contact-last
+  {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+   /* footer section */
+  .footer-area{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    justify-items: center;
+    gap:3rem;
+  }
+  .footer-logo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .footer-logo img{
+    width: 50px;
+  }
+  .footer-item{
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem
+  }
+  .subscriptions{
+    color: #FB9D5C;
+  }
+  .subscriptions input{
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+  }
+  
+  ul{
+    list-style-type: circle;
+    text-align: center;
+  }
+  .footer-item-last{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:0.6rem
+  }
+  .footer-item-last div h2{
+    margin-bottom: 0.6rem;
+  }
+  .footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+  .footer-item-contact div{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+  .footer-item-contact div p:first-child{
+    color: #FB9D5C;
+  }
+  /* header section */
+  header {
+    width: 100%;
+    height: 750px;
+    background-image: url("./image/hero-background.jpg"), linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+.footer-section{
+  margin-top: -5px;
+  color: #ffff;
+  background-color: #000000;
+}
